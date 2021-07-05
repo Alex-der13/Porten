@@ -1,18 +1,27 @@
 body {
 	background: #000000;
 	margin: 0;
-
 }
 
-.block_header_contacts_login {
+.block_header {
+	height: 124px;
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block_header__contacts_login {
+	width: 1110px;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
   color: #969696;
 }
 
 .contacts {
-  width: 371px;
+	cursor: pointer;
+  width: 326px;
   display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -24,8 +33,10 @@ body {
   line-height: 16px;
 }
 
+
 .login {
-  width: 121px;
+	cursor: pointer;
+  width: 131px;
   display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,13 +46,58 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
+}
 
+.login_text {
+	width: 107px;
+}
+
+.block_header__logo_menu {
+	width: 100%;
+	height: 80px;
+	background-image: url("./img/Rectangle_1.png");
+	display: flex;
+	justify-content: center;
+}
+
+.block_header__logo_menu__wrapper {
+	width: 1110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
 	cursor: pointer;
+	width: 104px;
+	height: 49px;
+	display: flex;
+	align-items: center;
 }
 
 .menu {
+	width: 590px;
   color:#969696;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.items {
+	width: 100%;
+	height: 80px;
+	cursor: pointer;
+ 	padding: 0 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.items:hover {
+	background: #1F1F1F;
+}
+
+.menu_icons {
+	display: flex;
 }
