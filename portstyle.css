@@ -1,0 +1,47 @@
+body {
+	background: #000000;
+	margin: 0;
+
+}
+
+.block_header_contacts_login {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+  color: #969696;
+}
+
+.contacts {
+  width: 371px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.login {
+  width: 121px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.menu {
+  color:#969696;
+}
