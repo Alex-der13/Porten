@@ -941,8 +941,8 @@ body {
 }
 
 .block_brands {
-	margin-top: 60px;
 	height: 362px;
+	background: #0F0F0F; /* бекграунд растягивается до бесконечности, а не в пределах ширины страницы*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -950,6 +950,7 @@ body {
 }
 
 .block_brands__content {
+	margin-top: 60px;
 	width: 1110px;
 	height: 222px;
 	display: flex;
@@ -980,4 +981,196 @@ body {
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.block_about {
+	height: 400px;
+	background-image: url("./img/backgr_3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.block_about__content {
+	margin-top: 80px;
+	width: 1110px;
+	height: 220px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: white; /*удалить*/
+}
+
+.block_about__content__about {
+	width: 350px;
+	height: 220px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.block_about__content__about__top {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_about__content__about__text {
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+}
+
+.block_about__content__categories {
+	width: 288px;
+	height: 174px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.block_about__content__categories__top {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_about__content__categories__catfloor1 {
+	width: 288px;
+	height: 42px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block_about__content__categories__catfloor1__cat {
+	cursor: pointer;
+	padding: 0 20px 0;
+	height: 42px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #0F0F0F;
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #D0D0D0;
+}
+
+.block_about__content__categories__catfloor2 {
+	width: 275px;
+	height: 42px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block_about__content__categories__catfloor2__cat {
+	cursor: pointer;
+	padding: 0 20px 0;
+	height: 42px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #0F0F0F;
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #D0D0D0;
+}
+
+.block_about__content__mailing {
+	width: 350px;
+	height: 193px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.block_about__content__mailing__top {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_about__content__mailing__text {
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+}
+
+.block_about__content__mailing__form {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block_about__content__mailing__form__email {
+	width: 210px;
+	height: 35px;
+	background: #1F1F1F;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_about__content__mailing__form__button {
+	cursor: pointer;
+	padding: 0 20px 0;
+	height: 42px;
+	background: #0F0F0F;
+
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
