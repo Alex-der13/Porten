@@ -171,3 +171,254 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.block_photos {
+	height: 730px;
+	display: flex;
+	justify-content: center;
+}
+
+.block_photos__season {
+	width: 1040px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block_photos__season__top {
+	margin-top: 93px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_photos__season__line {
+	border: 1px solid #FFFFFF;
+	width: 120px;
+	margin-top: 50px;
+}
+
+.block_photos__season__products {
+	margin-top: 50px;
+	width: 880px;
+	height: 405px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block_photos__season__products__product1 {
+	width: 260px;
+	height: 405px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.block_photos__season__products__product1:hover {
+	border: 1px solid white;
+}
+
+.block_photos__season__products__product1__photo {
+	width: 260px;
+	height: 325px;
+	cursor: pointer;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_photos__season__products__product1__photo:hover {
+	background: #191B1C;
+}
+
+.block_photos__season__products__product1__name {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__season__products__product1__price {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__season__products__product2 {
+	width: 260px;
+	height: 405px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.block_photos__season__products__product2:hover {
+	border: 1px solid white;
+}
+
+.block_photos__season__products__product2__photo {
+	width: 260px;
+	height: 325px;
+	cursor: pointer;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_photos__season__products__product2__photo:hover {
+	background: #191B1C;
+}
+
+.block_photos__season__products__product2__name {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__season__products__product2__price {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__season__products__product3 {
+	width: 260px;
+	height: 405px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.block_photos__season__products__product3:hover {
+	border: 1px solid white;
+}
+
+.block_photos__season__products__product3__photo {
+	width: 260px;
+	height: 325px;
+	cursor: pointer;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_photos__season__products__product3__photo:hover {
+	background: #191B1C;
+}
+
+.block_photos__season__products__product3__name {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__season__products__product3__price {
+	cursor: pointer;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.block_photos__new_collection {
+	width: 880px;
+	height: 730px;
+	background-image: url("./img/backgr_2.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_photos__new_collection__content {
+	width: 376px;
+	height: 146px;
+	margin-top: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.block_photos__new_collection__content__top {
+	width: 376px;
+	height: 39px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_photos__new_collection__content__line {
+	border: 1px solid #FFFFFF;
+	width: 120px;
+	margin-top: 30px;
+}
+
+.block_photos__new_collection__content__catalog {
+	cursor: pointer;
+	margin-top: 30px;
+	width: 150px;
+	height: 46px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_photos__new_collection__content__catalog:hover {
+	width: 150px;
+	height: 46px;
+	border: 1px solid #FFFFFF;
+}
+
+.block_photos__new_collection__content__catalog__text {
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
