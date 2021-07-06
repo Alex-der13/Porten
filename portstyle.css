@@ -939,3 +939,45 @@ body {
 	line-height: 24px;
 	color: #FFFFFF;
 }
+
+.block_brands {
+	margin-top: 60px;
+	height: 362px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block_brands__content {
+	width: 1110px;
+	height: 222px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block_brands__content__top {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.block_brands__content__line {
+	border: 1px solid #FFFFFF;
+	width: 120px;
+	margin-top: 40px;
+}
+
+.block_brands__content__brands {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
