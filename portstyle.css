@@ -987,13 +987,57 @@ body {
 .block_brands__content__line {
 	border: 1px solid #FFFFFF;
 	width: 120px;
-	margin-top: 40px;
+	margin-top: -3px;
 }
 
-.block_brands__content__brands {
-	margin-top: 40px;
+.slider_brands {
+	width: 100%;
+	max-width: 1110px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.img {
+	width: 260px;
+	height: 100px;
+}
+
+.block_brands__content__brands{
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.block_brands__content__brands:hover {
+	cursor: pointer;
+	border: 1px solid white;
+}
+
+.brands_icons {
+	width: 260px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+  left: 0;
+  transition: all ease 0.5s;
+}
+
+.btn1 {
+	/* margin-right: 200px; */
+}
+
+.btn1:hover {
+	cursor: pointer;
+}
+
+.btn2 {
+	transform: rotate(180deg);
+}
+
+.btn2:hover {
+	cursor: pointer;
 }
 
 .block_about {
