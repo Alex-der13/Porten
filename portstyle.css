@@ -3,6 +3,18 @@ body {
 	margin: 0;
 }
 
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* header */
+
 .block_header {
 	height: 124px;
 	display: flex;
@@ -53,7 +65,8 @@ body {
 }
 
 .block_header__logo_menu {
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
 	height: 80px;
 	background-image: url("./img/Rectangle_1.png");
 	display: flex;
@@ -76,7 +89,7 @@ body {
 }
 
 .menu {
-	width: 590px;
+	width: 600px;
   color:#969696;
 
 	display: flex;
@@ -187,7 +200,7 @@ body {
 
 .block_photos__season__top {
 	margin-top: 93px;
-	font-family: Playfair Display;
+	font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
