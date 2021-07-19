@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width="> -->
+    <meta name="viewport:" content="width=divice-width">
     <link rel="stylesheet" type="text/css" href="./portstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,44 +14,49 @@
   </head>
   <body>
     <div class="block_header">
-      <div class="container">
         <div class="block_header__contacts_login">
-          <div class="contacts">
-            <img src="img/Vector_phone.png" alt="">
-            <div  class="contacts_text">8 (812) 123-45-67    |    Работаем 7 дней в неделю    |    9:00 — 18:00  </div>
-  				</div>
-          <div class="login">
-            <img src="img/ic_sharp-log-in.png" alt="">
-            <div class="login_text">Войти / Регистрация</div>
+          <div class="container">
+            <div class="contacts">
+              <img src="img/Vector_phone.png" alt="">
+              <div  class="contacts_text">8 (812) 123-45-67    |    Работаем 7 дней в неделю    |    9:00 — 18:00  </div>
+    				</div>
+            <div class="login">
+              <img src="img/ic_sharp-log-in.png" alt="">
+              <div class="login_text">Войти / Регистрация</div>
+            </div>
           </div>
         </div>
         <div class="block_header__logo_menu">
-          <div class="block_header__logo_menu__wrapper">
-            <div class="logo">
-                <img src="img/PORTEN.png" alt="">
-            </div>
-            <div class="menu">
-              <div class="items">ПОНРАВИЛОСЬ</div>
-              <div class="items">ЛИЧНЫЙ КАБИНЕТ</div>
-              <div class="items">НАСТРОЙКИ</div>
-              <div class="menu_icons">
-                <div class="items"><img width="22px" height="22px" src="img/bx_bx-cart.png" alt=""></div>
-                <div class="items"><img width="22px" height="22px" src="img/Vector_lupe.png" alt=""></div>
+          <div class="container">
+              <div class="logo">
+                  <img src="img/PORTEN.png" alt="">
               </div>
-            </div>
+              <div class="menu">
+                <div class="items">ПОНРАВИЛОСЬ</div>
+                <div class="items">ЛИЧНЫЙ КАБИНЕТ</div>
+                <div class="items">НАСТРОЙКИ</div>
+                <div class="menu_icons">
+                  <div class="items"><img width="22px" height="22px" src="img/bx_bx-cart.png" alt=""></div>
+                  <div class="items"><img width="22px" height="22px" src="img/Vector_lupe.png" alt=""></div>
+                </div>
+              </div>
           </div>
         </div>
-      </div>
     </div>
     <div class="block_content">
       <div class="block_content__content">
         <div class="block_content__rectangle_3">
-            <div class="block_content__rectangle_3__logo">
-              <img src="img/PORTEN2.png" alt=""></div>
-            <div class="block_content__rectangle_3__line"></div>
-            <div class="block_content__rectangle_3__city">САНКТ-ПЕТЕРБУРГ</div>
+          <div class="block_content__rectangle_3__inner">
+              <div class="block_content__rectangle_3__logo">
+                <img src="img/PORTEN2.png" alt=""></div>
+              <div class="block_content__rectangle_3__line"></div>
+              <div class="block_content__rectangle_3__city">САНКТ-ПЕТЕРБУРГ</div>
+          </div>
         </div>
-      <div class="block_content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</div>
+      <div class="block_content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor <br>
+         pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum <br>
+          nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. <br>
+           Tortor nibh magna feugiat id nunc, dui nisl viverra.</div>
       </div>
     </div>
     <div class="block_photos">
@@ -58,20 +64,28 @@
         <div class="block_photos__season__top">СЕЗОН 2020/21</div>
         <div class="block_photos__season__line"></div>
         <div class="block_photos__season__products">
-          <div class="block_photos__season__products__product1">
-            <div class="block_photos__season__products__product1__photo"><img src="img/62050_1.png" alt=""></div>
-            <div class="block_photos__season__products__product1__name">Louis XVI ATHOS</div>
-            <div class="block_photos__season__products__product1__price">165 000 руб.</div>
-          </div>
-          <div class="block_photos__season__products__product2">
-            <div class="block_photos__season__products__product2__photo"><img src="img/62050_1.png" alt=""></div>
-            <div class="block_photos__season__products__product2__name">Louis XVI ATHOS</div>
-            <div class="block_photos__season__products__product2__price">165 000 руб.</div>
-          </div>
-          <div class="block_photos__season__products__product3">
-            <div class="block_photos__season__products__product3__photo"><img src="img/62050_1.png" alt=""></div>
-            <div class="block_photos__season__products__product3__name">Louis XVI ATHOS</div>
-            <div class="block_photos__season__products__product3__price">165 000 руб.</div>
+          <div class="slider_season">
+              <div class="btn1"><img height=100px src="img/row_1.png" alt=""></div>
+                <div class="inner_products">
+                  <div class="products_inner">
+                    <div class="block_photos__season__products__product1">
+                      <div class="block_photos__season__products__product1__photo"><img src="img/62050_1.png" alt=""></div>
+                      <div class="block_photos__season__products__product1__name">Louis XVI ATHOS</div>
+                      <div class="block_photos__season__products__product1__price">165 000 руб.</div>
+                    </div>
+                    <div class="block_photos__season__products__product2">
+                      <div class="block_photos__season__products__product2__photo"><img src="img/62050_1.png" alt=""></div>
+                      <div class="block_photos__season__products__product2__name">Louis XVI ATHOS</div>
+                      <div class="block_photos__season__products__product2__price">165 000 руб.</div>
+                    </div>
+                    <div class="block_photos__season__products__product3">
+                      <div class="block_photos__season__products__product3__photo"><img src="img/62050_1.png" alt=""></div>
+                      <div class="block_photos__season__products__product3__name">Louis XVI ATHOS</div>
+                      <div class="block_photos__season__products__product3__price">165 000 руб.</div>
+                    </div>
+                  </div>
+                </div>
+              <div class="btn2"><img height=100px src="img/row_1.png" alt=""></div>
           </div>
         </div>
       </div>
@@ -86,7 +100,7 @@
       </div>
     </div>
     <div class="block_collections">
-      <div class="block_collections__photo"><img src="img/collect_1.png" alt=""></div>
+      <div class="block_collections__photo"></div>
       <div class="block_collections__info">
         <div class="block_collections__info__content">
           <div class="block_collections__info__content__top">КОЛЛЕКЦИЯ 2018</div>
@@ -100,52 +114,62 @@
     </div>
     <div class="block_new">
       <div class="container">
-        <div class="block_new__top">НОВЫЕ ПОСЛУПЛЕНИЯ</div>
-        <div class="block_new__line"></div>
-        <div class="block_new__content">
-          <div class="block_new__content__floor1">
-            <div class="block_new__content__floor1__product1">
-              <div class="block_new__content__floor1__product1__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor1__product1__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor1__product1__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor1__product2">
-              <div class="block_new__content__floor1__product2__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor1__product2__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor1__product2__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor1__product3">
-              <div class="block_new__content__floor1__product3__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor1__product3__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor1__product3__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor1__product4">
-              <div class="block_new__content__floor1__product4__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor1__product4__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor1__product4__price">165 000 руб.</div>
-            </div>
-          </div>
-          <div class="block_new__content__floor2">
-            <div class="block_new__content__floor2__product5">
-              <div class="block_new__content__floor2__product5__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor2__product5__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor2__product5__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor2__product6">
-              <div class="block_new__content__floor2__product6__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor2__product6__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor2__product6__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor2__product7">
-              <div class="block_new__content__floor2__product7__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor2__product7__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor2__product7__price">165 000 руб.</div>
-            </div>
-            <div class="block_new__content__floor2__product8">
-              <div class="block_new__content__floor2__product8__photo"><img src="img/62050_1.png" alt=""></div>
-              <div class="block_new__content__floor2__product8__name">Louis XVI ATHOS</div>
-              <div class="block_new__content__floor2__product8__price">165 000 руб.</div>
-            </div>
+        <div class="block_new__wrapper">
+          <div class="block_new__top">НОВЫЕ ПОСТУПЛЕНИЯ</div>
+          <div class="block_new__line"></div>
+          <div class="block_new__content">
+              <div class="block_new__content__floor1">
+                <div class="floor_1_1">
+                  <div class="block_new__content__floor1__product1">
+                    <div class="block_new__content__floor1__product1__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor1__product1__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor1__product1__price">165 000 руб.</div>
+                  </div>
+                  <div class="block_new__content__floor1__product2">
+                    <div class="block_new__content__floor1__product2__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor1__product2__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor1__product2__price">165 000 руб.</div>
+                  </div>
+                </div>
+                <div class="floor_1_2">
+                  <div class="block_new__content__floor1__product3">
+                    <div class="block_new__content__floor1__product3__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor1__product3__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor1__product3__price">165 000 руб.</div>
+                  </div>
+                  <div class="block_new__content__floor1__product4">
+                    <div class="block_new__content__floor1__product4__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor1__product4__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor1__product4__price">165 000 руб.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="block_new__content__floor2">
+                <div class="floor_2_1">
+                  <div class="block_new__content__floor2__product5">
+                    <div class="block_new__content__floor2__product5__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor2__product5__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor2__product5__price">165 000 руб.</div>
+                  </div>
+                  <div class="block_new__content__floor2__product6">
+                    <div class="block_new__content__floor2__product6__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor2__product6__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor2__product6__price">165 000 руб.</div>
+                  </div>
+                </div>
+                <div class="floor_2_2">
+                  <div class="block_new__content__floor2__product7">
+                    <div class="block_new__content__floor2__product7__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor2__product7__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor2__product7__price">165 000 руб.</div>
+                  </div>
+                  <div class="block_new__content__floor2__product8">
+                    <div class="block_new__content__floor2__product8__photo"><img src="img/62050_1.png" alt=""></div>
+                    <div class="block_new__content__floor2__product8__name">Louis XVI ATHOS</div>
+                    <div class="block_new__content__floor2__product8__price">165 000 руб.</div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -156,8 +180,7 @@
           <div class="block_brands__content__top">НАШИ БРЕНДЫ</div>
           <div class="block_brands__content__line"></div>
           <div class="slider_brands">
-
-            <div class="btn1"><img height=100px src="img/row_1.png" alt=""></div>
+            <div class="btn3"><img height=105px src="img/row_1.png" alt=""></div>
             <div class="block_brands__content__brands">
               <div class="brands_icons">
                 <img class="img" src="img/brand.png" alt="">
@@ -166,41 +189,38 @@
                 <img class="img" src="img/brand.png" alt="">
               </div>
             </div>
-            <div class="btn2"><img height=100px src="img/row_1.png" alt=""></div>
-
+            <div class="btn4"><img height=105px src="img/row_1.png" alt=""></div>
           </div>
         </div>
       </div>
     </div>
     <div class="block_about">
-      <div class="container">
         <div class="block_about__content">
-            <div class="block_about__content__about">
-              <div class="block_about__content__about__top">О МАГАЗИНЕ</div>
-              <div class="block_about__content__about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</div>
-            </div>
-            <div class="block_about__content__categories">
-              <div class="block_about__content__categories__top">КАТЕГОРИИ</div>
-              <div class="block_about__content__categories__catfloor1">
-                <div class="block_about__content__categories__catfloor1__cat">часы</div>
-                <div class="block_about__content__categories__catfloor1__cat">браслеты</div>
-                <div class="block_about__content__categories__catfloor1__cat">ремни</div>
+              <div class="block_about__content__about">
+                <div class="block_about__content__about__top">О МАГАЗИНЕ</div>
+                <div class="block_about__content__about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</div>
               </div>
-              <div class="block_about__content__categories__catfloor2">
-                <div class="block_about__content__categories__catfloor2__cat">ювелирные изделия</div>
-                <div class="block_about__content__categories__catfloor2__cat">запонки</div>
+              <div class="block_about__content__categories">
+                <div class="block_about__content__categories__top">КАТЕГОРИИ</div>
+                <div class="block_about__content__categories__catfloor1">
+                  <div class="block_about__content__categories__catfloor1__cat">часы</div>
+                  <div class="block_about__content__categories__catfloor1__cat">браслеты</div>
+                  <div class="block_about__content__categories__catfloor1__cat">ремни</div>
+                </div>
+                <div class="block_about__content__categories__catfloor2">
+                  <div class="block_about__content__categories__catfloor2__cat">ювелирные изделия</div>
+                  <div class="block_about__content__categories__catfloor2__cat">запонки</div>
+                </div>
+              </div>
+              <div class="block_about__content__mailing">
+                <div class="block_about__content__mailing__top">РАССЫЛКА</div>
+                <div class="block_about__content__mailing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</div>
+                <div class="block_about__content__mailing__form">
+                  <input class="block_about__content__mailing__form__email" type="text" placeholder="Ваша почта"/>
+                  <div class="block_about__content__mailing__form__button">ПОДПИСАТЬСЯ</div>
+                </div>
               </div>
             </div>
-            <div class="block_about__content__mailing">
-              <div class="block_about__content__mailing__top">РАССЫЛКА</div>
-              <div class="block_about__content__mailing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</div>
-              <div class="block_about__content__mailing__form">
-                <input class="block_about__content__mailing__form__email" type="text" placeholder="Ваша почта"/>
-                <div class="block_about__content__mailing__form__button">ПОДПИСАТЬСЯ</div>
-              </div>
-            </div>
-        </div>
-      </div>
     </div>
   <script src='script.js'></script>
   </body>
